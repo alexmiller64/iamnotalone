@@ -1,7 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="IAmNotAlone">
 <head>
+    <base href="/"> <!--To operate on local system, set href as "/" -->
+    <title>I Am Not Alone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/notalone.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-route.js"></script>
+    <script src='https://code.jquery.com/jquery.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-storage/0.0.15/angular-storage.min.js"></script>
+    <script src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'></script>
+    <script src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+    <style type="text/css">
+        body {
+            padding-top: 70px;
+            padding-left: 70px;
+           /* background-image: url("images/home.jpg"); */
+            background-repeat: repeat-y;
+            background-attachment: fixed;
+    </style>
 </head>
 <body>
+    <nav id="text" class="navbar navbar-default navbar-fixed-top">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  data-target="#myCollapsingList">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    </button>
+        <nav class="container">
+            <header class="navbar-header">
+                <a class="navbar-brand" href=".">I.A.N.A.</a>
+            </header>
+            <ul id="myCollapsingList" class="nav navbar-nav navbar-right collapse navbar-collapse">
+                <li><a href=".">Home</a></li>
+                <li><a href="reviews">Real Stories</a></li>
+                <li><a href="accounts/register">Register</a></li>
+            </ul>
+        </nav>
+    </nav>
+    <section ng-view> </section>
+ 
+<script src='js/app.js'></script>
+<script src='js/controller.js'></script>
+<script src='js/service.js'></script>
 </body>
 </html>

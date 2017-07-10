@@ -1,0 +1,27 @@
+{
+  "name": "relevantindependent",
+  "description": "An indie game review site",
+  "main": "index.js",
+  "authors": [
+    "Alex Miller"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "gaming",
+    "independent",
+    "review"
+  ],
+  "homepage": "https://github.com/alexmiller64/relevantindependent",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "^1.6.1",
+    "angular-route": "^1.6.1"
+  }
+}

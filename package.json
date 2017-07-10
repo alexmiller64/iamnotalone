@@ -1,0 +1,24 @@
+{
+  "name": "relevantindependent",
+  "version": "1.0.0",
+  "description": "An indie game review site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexmiller64/relevantindependent.git"
+  },
+  "keywords": [
+    "gaming",
+    "independent",
+    "review"
+  ],
+  "author": "Alex Miller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexmiller64/relevantindependent/issues"
+  },
+  "homepage": "https://github.com/alexmiller64/relevantindependent#readme"
+}
