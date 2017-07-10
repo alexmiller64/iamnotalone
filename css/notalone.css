@@ -13,7 +13,7 @@
 .landing-message{
 	flex-direction: row;
 	text-align: center;
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Courgette', cursive;
 	font-size: 30px;
 	margin: 50px auto;
 	justify-content: center;
@@ -23,8 +23,8 @@
 
 #text
 	{
-	font-family: 'Indie Flower', cursive;
-	color: black;
+	font-family: 'Courgette', cursive;
+	color: #808080;
 	font-size: 150%;
 	}
 
@@ -34,8 +34,8 @@
 
 #text2
 	{
-	font-family: 'Indie Flower', cursive;
-	color: #992600;
+	font-family: 'Courgette', cursive;
+	color: #008000;
 	font-variant: small-caps;
 	}
 
