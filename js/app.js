@@ -7,12 +7,12 @@ angular.module("IAmNotAlone").config(function($locationProvider, $routeProvider)
         templateUrl: "templates/home.html",
         controller: "HomeController"
     })
-    .when("/accounts/register", {
-        templateUrl: "templates/register.html",
+    .when("/charts", {
+        templateUrl: "templates/charts.html",
         controller: "RegisterController"
     })
-    .when("/reviews", {
-    	templateUrl: "templates/reviews.html",
+    .when("/real_stories", {
+    	templateUrl: "templates/real_stories.html",
     	controller: "FirstReviewsController"
     })
 
