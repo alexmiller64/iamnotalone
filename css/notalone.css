@@ -23,7 +23,7 @@
 
 #text
 	{
-	font-family: 'Courgette', cursive;
+	font-family: 'Kalam', cursive;
 	color: #808080;
 	font-size: 150%;
 	text-align: center;
@@ -36,8 +36,8 @@
 
 #text2
 	{
-	font-family: 'Courgette', cursive;
-	color: #141593;
+	font-family: 'Kalam', cursive;
+	color: #121382;
 	font-variant: small-caps;
 	text-align: center;
 	display: block;
@@ -69,7 +69,7 @@
 }
 
 .navbar-default {
-  background-color: #141593;
+  background-color: #121382;
   border-color: #2e59cd;
 }
 .navbar-default .navbar-brand {
@@ -90,7 +90,7 @@
   color: #ffa500;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu {
-  background-color: #141593;
+  background-color: #121382;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a {
   color: #afafaf;
