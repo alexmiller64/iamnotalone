@@ -68,6 +68,18 @@
 	position: block;
 }
 
+.scrollbox{
+  overflow: auto;
+  width: 600px;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
 .navbar-default {
   background-color: #121382;
   border-color: #2e59cd;
